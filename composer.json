@@ -13,15 +13,9 @@
   "require": {
     "symfony/http-client" : "v4.3.0-BETA2"
   },
-  "require-dev": {
-    "phpunit/phpunit": "^8"
-  },
   "autoload": {
     "psr-4": {
       "Sportmonks\\Soccer\\": "src/"
     }
-  },
-  "autoload-dev": {
-
   }
 }

@@ -1,5 +1,7 @@
 # Sportmonks Soccer API PHP Client
 
+[![Build Status](https://travis-ci.org/joesaunderson/sportmonks-soccer.svg?branch=master)](https://travis-ci.org/joesaunderson/sportmonks-soccer)
+
 PHP Library for [Sportmonks](https://sportmonks.com/) Soccer API. Developed by [Joe Saunderson](mailto:joesaunderson@me.com).
 
 ## Prerequisites
