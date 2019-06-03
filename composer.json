@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "symfony/http-client" : "v4.3.0-BETA2"
+    "symfony/http-client": "^4.3"
   },
   "autoload": {
     "psr-4": {
