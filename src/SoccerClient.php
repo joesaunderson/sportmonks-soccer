@@ -92,7 +92,7 @@ class SoccerClient
     public function setIncludes(array $includes)
     {
         // Trim & Join Array of Includes
-        $this->query['includes'] = implode(",", array_map("trim", array_filter($includes)));
+        $this->query['include'] = implode(",", array_map("trim", array_filter($includes)));
         return $this;
     }
 
