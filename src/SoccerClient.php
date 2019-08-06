@@ -70,7 +70,7 @@ class SoccerClient
     public function setBookmakers(array $bookmakerIds)
     {
         // Trim & Join Array of Bookmaker IDs
-        $this->query['bookmaker'] = implode(",", array_map("trim", array_filter($bookmakerIds)));
+        $this->query['bookmakers'] = implode(",", array_map("trim", array_filter($bookmakerIds)));
         return $this;
     }
 
