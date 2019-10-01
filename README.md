@@ -256,6 +256,38 @@ $response = SoccerApi::odds()->getInPlayByFixtureId($fixtureId);
 $response = SoccerApi::players()->getById($playerId);
 ```
 
+### Predictions
+
+##### Get Leagues [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/prediction-api/a/leagues-performance/211)
+
+```php
+$response = SoccerApi::predictions()->getLeagues()
+```
+
+##### Get Probabilities [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/prediction-api/a/probabilities/212)
+
+```php
+$response = SoccerApi::predictions()->getProbabilities()
+```
+
+##### Get Probabilities By Fixture Id [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/prediction-api/a/probability-by-fixture-id/214)
+
+```php
+$response = SoccerApi::predictions()->getProbabilitiesByFixtureId($fixtureId)
+```
+
+##### Get Value Bets [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/prediction-api/a/value-bets/213)
+
+```php
+$response = SoccerApi::predictions()->getValueBets()
+```
+
+##### Get Value Bets By Fixture Id [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/prediction-api/a/value-bet-by-fixture-id/215)
+
+```php
+$response = SoccerApi::predictions()->getValueBetsByFixtureId($fixtureId)
+```
+
 ### Rounds
      
 ##### Get By Id - [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/rounds/a/get-round-by-id/28)
