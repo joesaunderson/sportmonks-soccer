@@ -14,6 +14,7 @@ use Sportmonks\Soccer\Endpoint\LiveScore;
 use Sportmonks\Soccer\Endpoint\Market;
 use Sportmonks\Soccer\Endpoint\Odd;
 use Sportmonks\Soccer\Endpoint\Player;
+use Sportmonks\Soccer\Endpoint\Prediction;
 use Sportmonks\Soccer\Endpoint\Round;
 use Sportmonks\Soccer\Endpoint\Season;
 use Sportmonks\Soccer\Endpoint\Stage;
@@ -125,6 +126,14 @@ class SoccerApi
     public static function players()
     {
         return new Player();
+    }
+
+    /**
+     * @return Prediction
+     */
+    public static function predictions()
+    {
+        return new Prediction();
     }
 
     /**
