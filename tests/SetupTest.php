@@ -1,6 +1,6 @@
 <?php
 
-namespace Sportmonks\Test;
+namespace Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;

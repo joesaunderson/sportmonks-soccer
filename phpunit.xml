@@ -21,4 +21,8 @@
             <directory suffix=".php">src</directory>
         </whitelist>
     </filter>
+
+    <php>
+	    <env name="SPORTMONKS_API_TOKEN" value="test"/>
+    </php>
 </phpunit>

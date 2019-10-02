@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sportmonks\Test;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Sportmonks\Soccer\Endpoint\Bookmaker;

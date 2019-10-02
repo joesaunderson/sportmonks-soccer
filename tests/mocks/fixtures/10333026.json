@@ -1,0 +1,3761 @@
+{
+    "data": {
+        "id": 10333026,
+        "league_id": 8,
+        "season_id": 12962,
+        "stage_id": 7456626,
+        "round_id": 147732,
+        "group_id": null,
+        "aggregate_id": null,
+        "venue_id": 202,
+        "referee_id": 15293,
+        "localteam_id": 13,
+        "visitorteam_id": 9,
+        "weather_report": {
+            "code": "clouds",
+            "type": "few clouds",
+            "icon": "https://cdn.sportmonks.com/images/weather/02n.png",
+            "temperature": {
+                "temp": 43.88,
+                "unit": "fahrenheit"
+            },
+            "clouds": "20%",
+            "humidity": "87%",
+            "wind": {
+                "speed": "8.05 m/s",
+                "degree": 150
+            }
+        },
+        "commentaries": true,
+        "attendance": 39322,
+        "pitch": null,
+        "winning_odds_calculated": true,
+        "formations": {
+            "localteam_formation": "4-2-3-1",
+            "visitorteam_formation": "4-3-3"
+        },
+        "scores": {
+            "localteam_score": 0,
+            "visitorteam_score": 2,
+            "localteam_pen_score": null,
+            "visitorteam_pen_score": null,
+            "ht_score": "0-1",
+            "ft_score": "0-2",
+            "et_score": null
+        },
+        "time": {
+            "status": "FT",
+            "starting_at": {
+                "date_time": "2019-02-06 19:45:00",
+                "date": "2019-02-06",
+                "time": "19:45:00",
+                "timestamp": 1549482300,
+                "timezone": "UTC"
+            },
+            "minute": 90,
+            "second": null,
+            "added_time": 8,
+            "extra_minute": null,
+            "injury_time": 8
+        },
+        "coaches": {
+            "localteam_coach_id": 455424,
+            "visitorteam_coach_id": 455361
+        },
+        "standings": {
+            "localteam_position": 9,
+            "visitorteam_position": 2
+        },
+        "assistants": {
+            "first_assistant_id": 12245,
+            "second_assistant_id": 12083,
+            "fourth_official_id": 15241
+        },
+        "leg": "1/1",
+        "colors": {
+            "localteam": {
+                "color": null,
+                "kit_colors": null
+            },
+            "visitorteam": {
+                "color": null,
+                "kit_colors": null
+            }
+        },
+        "deleted": false,
+        "localTeam": {
+            "data": {
+                "id": 13,
+                "legacy_id": 165,
+                "name": "Everton",
+                "short_code": "EVE",
+                "twitter": "@Everton",
+                "country_id": 462,
+                "national_team": false,
+                "founded": 1878,
+                "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/13/13.png",
+                "venue_id": 202
+            }
+        },
+        "visitorTeam": {
+            "data": {
+                "id": 9,
+                "legacy_id": 127,
+                "name": "Manchester City",
+                "short_code": "MCI",
+                "twitter": "@ManCity",
+                "country_id": 462,
+                "national_team": false,
+                "founded": 1880,
+                "logo_path": "https://cdn.sportmonks.com/images/soccer/teams/9/9.png",
+                "venue_id": 151
+            }
+        },
+        "corners": {
+            "data": [
+                {
+                    "id": 914303,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 2,
+                    "extra_minute": null,
+                    "comment": "1st Corner"
+                },
+                {
+                    "id": 914338,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 16,
+                    "extra_minute": null,
+                    "comment": "2nd Corner"
+                },
+                {
+                    "id": 914385,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 29,
+                    "extra_minute": null,
+                    "comment": "3rd Corner"
+                },
+                {
+                    "id": 914395,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 33,
+                    "extra_minute": null,
+                    "comment": "4th Corner"
+                },
+                {
+                    "id": 914411,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 38,
+                    "extra_minute": null,
+                    "comment": "5th Corner"
+                },
+                {
+                    "id": 914412,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 38,
+                    "extra_minute": null,
+                    "comment": "Race to 3 Corners"
+                },
+                {
+                    "id": 914423,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 41,
+                    "extra_minute": null,
+                    "comment": "6th Corner"
+                },
+                {
+                    "id": 914480,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 50,
+                    "extra_minute": null,
+                    "comment": "7th Corner"
+                },
+                {
+                    "id": 914528,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 64,
+                    "extra_minute": null,
+                    "comment": "8th Corner"
+                },
+                {
+                    "id": 914527,
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "minute": 64,
+                    "extra_minute": null,
+                    "comment": "Race to 5 Corners"
+                },
+                {
+                    "id": 914536,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 69,
+                    "extra_minute": null,
+                    "comment": "9th Corner"
+                },
+                {
+                    "id": 914602,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 90,
+                    "extra_minute": 2,
+                    "comment": "10th Corner"
+                },
+                {
+                    "id": 914608,
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "minute": 90,
+                    "extra_minute": 3,
+                    "comment": "11th Corner"
+                }
+            ]
+        },
+        "lineup": {
+            "data": [
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 1826,
+                    "player_name": "Jordan Pickford",
+                    "number": 1,
+                    "position": "G",
+                    "additional_position": null,
+                    "formation_position": 1,
+                    "posx": 1,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 2
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 15,
+                            "passes_accuracy": 51,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 1,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 2,
+                            "inside_box_saves": 2,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 5013,
+                    "player_name": "Jonjoe Kenny",
+                    "number": 43,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 2,
+                    "posx": 2,
+                    "posy": 5,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 37,
+                            "passes_accuracy": 75,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 0,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 7,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 2,
+                            "interceptions": 1,
+                            "clearances": 6,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 881,
+                    "player_name": "Michael Keane",
+                    "number": 4,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 3,
+                    "posx": 2,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 31,
+                            "passes_accuracy": 77,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 7,
+                            "won": 4
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 3,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 1316,
+                    "player_name": "Kurt Zouma",
+                    "number": 5,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 4,
+                    "posx": 2,
+                    "posy": 2,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 1,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 23,
+                            "passes_accuracy": 79,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 5,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 2,
+                            "interceptions": 1,
+                            "clearances": 9,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 95368,
+                    "player_name": "Lucas Digne",
+                    "number": 12,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 5,
+                    "posx": 2,
+                    "posy": 1,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 1,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 2,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 6,
+                            "crosses_accuracy": 0,
+                            "passes": 20,
+                            "passes_accuracy": 76,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 1,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 7,
+                            "won": 5
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 0,
+                            "interceptions": 2,
+                            "clearances": 4,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 1030,
+                    "player_name": "Idrissa Gueye",
+                    "number": 17,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 6,
+                    "posx": 3,
+                    "posy": 4,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 1,
+                            "shots_on_goal": 1
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 2
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 40,
+                            "passes_accuracy": 87,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 2
+                        },
+                        "duels": {
+                            "total": 12,
+                            "won": 6
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 1,
+                            "interceptions": 2,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 159372,
+                    "player_name": "André Gomes",
+                    "number": 8,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 7,
+                    "posx": 3,
+                    "posy": 2,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 19,
+                            "passes_accuracy": 86,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 4
+                        },
+                        "duels": {
+                            "total": 11,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 1,
+                            "dispossesed": 0,
+                            "minutes_played": 63
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 53,
+                    "player_name": "Theo Walcott",
+                    "number": 11,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 8,
+                    "posx": 4,
+                    "posy": 5,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 7,
+                            "crosses_accuracy": 1,
+                            "passes": 9,
+                            "passes_accuracy": 56,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 4,
+                            "success": 3,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 15,
+                            "won": 8
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 80
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 1706,
+                    "player_name": "Tom Davies",
+                    "number": 26,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 9,
+                    "posx": 4,
+                    "posy": 3,
+                    "captain": true,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 2,
+                            "committed": 2
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 2,
+                            "crosses_accuracy": 0,
+                            "passes": 23,
+                            "passes_accuracy": 69,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 3,
+                            "success": 3,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 16,
+                            "won": 11
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 4,
+                            "blocks": 1,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 205595,
+                    "player_name": "Bernard",
+                    "number": 20,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 10,
+                    "posx": 4,
+                    "posy": 1,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 2,
+                            "crosses_accuracy": 0,
+                            "passes": 8,
+                            "passes_accuracy": 88,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 3,
+                            "success": 1,
+                            "dribbled_past": 2
+                        },
+                        "duels": {
+                            "total": 8,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 73
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 5141,
+                    "player_name": "Dominic Calvert-Lewin",
+                    "number": 29,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": 11,
+                    "posx": 5,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 4
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 11,
+                            "passes_accuracy": 57,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 2,
+                            "success": 2,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 25,
+                            "won": 9
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 159142,
+                    "player_name": "Ederson",
+                    "number": 31,
+                    "position": "G",
+                    "additional_position": null,
+                    "formation_position": 1,
+                    "posx": 1,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 18,
+                            "passes_accuracy": 66,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 2,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 1,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 911,
+                    "player_name": "Kyle Walker",
+                    "number": 2,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 2,
+                    "posx": 2,
+                    "posy": 5,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 1,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 54,
+                            "passes_accuracy": 80,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 12,
+                            "won": 9
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 1,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 4,
+                            "blocks": 1,
+                            "interceptions": 1,
+                            "clearances": 3,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 1822,
+                    "player_name": "Nicolás Otamendi",
+                    "number": 30,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 4,
+                    "posx": 2,
+                    "posy": 2,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 65,
+                            "passes_accuracy": 91,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 16,
+                            "won": 10
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 4,
+                            "clearances": 8,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 186299,
+                    "player_name": "Aymeric Laporte",
+                    "number": 14,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 5,
+                    "posx": 2,
+                    "posy": 1,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 1
+                        },
+                        "goals": {
+                            "scored": 1,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 2,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 54,
+                            "passes_accuracy": 87,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 2
+                        },
+                        "duels": {
+                            "total": 18,
+                            "won": 11
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 5,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 982,
+                    "player_name": "John Stones",
+                    "number": 5,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": 3,
+                    "posx": 2,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 64,
+                            "passes_accuracy": 92,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 1,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 9,
+                            "won": 5
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 4,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 1408,
+                    "player_name": "Fernandinho",
+                    "number": 25,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 7,
+                    "posx": 3,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 3,
+                            "committed": 3
+                        },
+                        "cards": {
+                            "yellowcards": 1,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 61,
+                            "passes_accuracy": 92,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 3,
+                            "success": 2,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 17,
+                            "won": 10
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 2,
+                            "clearances": 3,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 96353,
+                    "player_name": "Bernardo Silva",
+                    "number": 20,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 9,
+                    "posx": 5,
+                    "posy": 5,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 1
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 1,
+                            "crosses_accuracy": 0,
+                            "passes": 35,
+                            "passes_accuracy": 77,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 3,
+                            "success": 2,
+                            "dribbled_past": 3
+                        },
+                        "duels": {
+                            "total": 10,
+                            "won": 4
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 4842,
+                    "player_name": "İlkay Gündoğan",
+                    "number": 8,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 6,
+                    "posx": 4,
+                    "posy": 5,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 4,
+                            "crosses_accuracy": 2,
+                            "passes": 35,
+                            "passes_accuracy": 85,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 2
+                        },
+                        "duels": {
+                            "total": 7,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 1,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 1,
+                            "dispossesed": 0,
+                            "minutes_played": 90
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 294,
+                    "player_name": "David Silva",
+                    "number": 21,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": 8,
+                    "posx": 4,
+                    "posy": 1,
+                    "captain": true,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 1,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 2,
+                            "crosses_accuracy": 1,
+                            "passes": 37,
+                            "passes_accuracy": 84,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 1,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 6,
+                            "won": 4
+                        },
+                        "other": {
+                            "assists": 1,
+                            "offsides": 1,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 1,
+                            "dispossesed": 0,
+                            "minutes_played": 89
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 4783,
+                    "player_name": "Leroy Sané",
+                    "number": 19,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": 11,
+                    "posx": 5,
+                    "posy": 1,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 1,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 1,
+                            "crosses_accuracy": 0,
+                            "passes": 18,
+                            "passes_accuracy": 81,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 2,
+                            "success": 2,
+                            "dribbled_past": 1
+                        },
+                        "duels": {
+                            "total": 6,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 3,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 1,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 59
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 1359,
+                    "player_name": "Sergio Agüero",
+                    "number": 10,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": 10,
+                    "posx": 5,
+                    "posy": 3,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 1,
+                            "crosses_accuracy": 0,
+                            "passes": 8,
+                            "passes_accuracy": 66,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 3,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 11,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 1,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 80
+                        }
+                    }
+                }
+            ]
+        },
+        "bench": {
+            "data": [
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 26603,
+                    "player_name": "Oleksandr Zinchenko",
+                    "number": 35,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 159208,
+                    "player_name": "Danilo",
+                    "number": 3,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 1371,
+                    "player_name": "Kevin De Bruyne",
+                    "number": 17,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 3,
+                            "passes_accuracy": 100,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 1,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 3,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 1
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 971,
+                    "player_name": "Riyad Mahrez",
+                    "number": 26,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 802,
+                    "player_name": "Raheem Sterling",
+                    "number": 7,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 1,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 11,
+                            "passes_accuracy": 84,
+                            "key_passes": 1
+                        },
+                        "dribbles": {
+                            "attempts": 5,
+                            "success": 2,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 10,
+                            "won": 4
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 31
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 5329,
+                    "player_name": "Gabriel Jesus",
+                    "number": 33,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 2,
+                            "shots_on_goal": 2
+                        },
+                        "goals": {
+                            "scored": 1,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 1,
+                            "committed": 1
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 1,
+                            "crosses_accuracy": 0,
+                            "passes": 4,
+                            "passes_accuracy": 100,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 5,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 10
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 1072,
+                    "player_name": "Maarten Stekelenburg",
+                    "number": 22,
+                    "position": "G",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 764,
+                    "player_name": "Séamus Coleman",
+                    "number": 23,
+                    "position": "D",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 526,
+                    "player_name": "James McCarthy",
+                    "number": 16,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 967,
+                    "player_name": "Morgan Schneiderlin",
+                    "number": 18,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 814,
+                    "player_name": "Gylfi Sigurðsson",
+                    "number": 10,
+                    "position": "M",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 9,
+                            "passes_accuracy": 100,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 2,
+                            "success": 2,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 3,
+                            "won": 2
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 0,
+                            "blocks": 0,
+                            "interceptions": 1,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 27
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 45863,
+                    "player_name": "Cenk Tosun",
+                    "number": 14,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 0,
+                            "crosses_accuracy": 0,
+                            "passes": 4,
+                            "passes_accuracy": 80,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 6,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 2,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 10
+                        }
+                    }
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 219633,
+                    "player_name": "Richarlison",
+                    "number": 30,
+                    "position": "F",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": 0,
+                            "shots_on_goal": 0
+                        },
+                        "goals": {
+                            "scored": 0,
+                            "assists": 0,
+                            "conceded": 0
+                        },
+                        "fouls": {
+                            "drawn": 0,
+                            "committed": 0
+                        },
+                        "cards": {
+                            "yellowcards": 0,
+                            "redcards": 0
+                        },
+                        "passing": {
+                            "total_crosses": 1,
+                            "crosses_accuracy": 0,
+                            "passes": 2,
+                            "passes_accuracy": 50,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 1,
+                            "success": 1,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 9,
+                            "won": 3
+                        },
+                        "other": {
+                            "assists": 0,
+                            "offsides": 0,
+                            "saves": 0,
+                            "inside_box_saves": 0,
+                            "pen_scored": 0,
+                            "pen_missed": 0,
+                            "pen_saved": 0,
+                            "pen_committed": 0,
+                            "pen_won": 0,
+                            "hit_woodwork": 0,
+                            "tackles": 1,
+                            "blocks": 0,
+                            "interceptions": 0,
+                            "clearances": 0,
+                            "dispossesed": 0,
+                            "minutes_played": 17
+                        }
+                    }
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 538038,
+                    "player_name": "Arijanet Murić",
+                    "number": 49,
+                    "position": "G",
+                    "additional_position": null,
+                    "formation_position": null,
+                    "posx": null,
+                    "posy": null,
+                    "captain": false,
+                    "stats": {
+                        "shots": {
+                            "shots_total": null,
+                            "shots_on_goal": null
+                        },
+                        "goals": {
+                            "scored": null,
+                            "assists": null,
+                            "conceded": null
+                        },
+                        "fouls": {
+                            "drawn": null,
+                            "committed": null
+                        },
+                        "cards": {
+                            "yellowcards": null,
+                            "redcards": null
+                        },
+                        "passing": {
+                            "total_crosses": null,
+                            "crosses_accuracy": null,
+                            "passes": null,
+                            "passes_accuracy": null,
+                            "key_passes": 0
+                        },
+                        "dribbles": {
+                            "attempts": 0,
+                            "success": 0,
+                            "dribbled_past": 0
+                        },
+                        "duels": {
+                            "total": 0,
+                            "won": 0
+                        },
+                        "other": {
+                            "assists": null,
+                            "offsides": 0,
+                            "saves": null,
+                            "inside_box_saves": 0,
+                            "pen_scored": null,
+                            "pen_missed": null,
+                            "pen_saved": null,
+                            "pen_committed": null,
+                            "pen_won": null,
+                            "hit_woodwork": null,
+                            "tackles": null,
+                            "blocks": null,
+                            "interceptions": null,
+                            "clearances": null,
+                            "dispossesed": 0,
+                            "minutes_played": null
+                        }
+                    }
+                }
+            ]
+        },
+        "sidelined": {
+            "data": [
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 220040,
+                    "player_name": "Y. Mina",
+                    "reason": "Foot Injury"
+                },
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "player_id": 32,
+                    "player_name": "P. Jagielka",
+                    "reason": "Knock"
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 236,
+                    "player_name": "V. Kompany",
+                    "reason": "Knock"
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 96183,
+                    "player_name": "B. Mendy",
+                    "reason": "Knee Injury"
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "player_id": 4792,
+                    "player_name": "C. Bravo",
+                    "reason": "Achilles tendon rupture"
+                }
+            ]
+        },
+        "stats": {
+            "data": [
+                {
+                    "team_id": 13,
+                    "fixture_id": 10333026,
+                    "shots": {
+                        "total": 4,
+                        "ongoal": 1,
+                        "offgoal": 0,
+                        "blocked": 3,
+                        "insidebox": 1,
+                        "outsidebox": 3
+                    },
+                    "passes": {
+                        "total": 336,
+                        "accurate": 251,
+                        "percentage": 75
+                    },
+                    "attacks": {
+                        "attacks": 112,
+                        "dangerous_attacks": 67
+                    },
+                    "fouls": 12,
+                    "corners": 5,
+                    "offsides": 0,
+                    "possessiontime": 38,
+                    "yellowcards": 1,
+                    "redcards": 0,
+                    "saves": 2,
+                    "substitutions": 3,
+                    "goal_kick": null,
+                    "goal_attempts": 1,
+                    "free_kick": null,
+                    "throw_in": null,
+                    "ball_safe": 78
+                },
+                {
+                    "team_id": 9,
+                    "fixture_id": 10333026,
+                    "shots": {
+                        "total": 15,
+                        "ongoal": 4,
+                        "offgoal": 4,
+                        "blocked": 7,
+                        "insidebox": 13,
+                        "outsidebox": 2
+                    },
+                    "passes": {
+                        "total": 546,
+                        "accurate": 467,
+                        "percentage": 86
+                    },
+                    "attacks": {
+                        "attacks": 116,
+                        "dangerous_attacks": 70
+                    },
+                    "fouls": 6,
+                    "corners": 6,
+                    "offsides": 5,
+                    "possessiontime": 62,
+                    "yellowcards": 1,
+                    "redcards": 0,
+                    "saves": 1,
+                    "substitutions": 3,
+                    "goal_kick": null,
+                    "goal_attempts": 8,
+                    "free_kick": null,
+                    "throw_in": null,
+                    "ball_safe": 107
+                }
+            ]
+        },
+        "comments": {
+            "data": [
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 3,
+                    "goal": false,
+                    "minute": 1,
+                    "extra_minute": null,
+                    "comment": "Fouled by Bernard  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 2,
+                    "goal": false,
+                    "minute": 1,
+                    "extra_minute": null,
+                    "comment": "Fernandinho  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 4,
+                    "goal": false,
+                    "minute": 2,
+                    "extra_minute": null,
+                    "comment": "Corner -  Manchester City. Conceded by Lucas Digne."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 5,
+                    "goal": false,
+                    "minute": 3,
+                    "extra_minute": null,
+                    "comment": "Missed chance. Leroy Sané  - Manchester City -  shot with left foot from outside the box is close, but missed after corner."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 6,
+                    "goal": false,
+                    "minute": 4,
+                    "extra_minute": null,
+                    "comment": "Offside - Manchester City. Fernandinho with a pass, however Kyle Walker is in offside."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 7,
+                    "goal": false,
+                    "minute": 5,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Sergio Agüero  - Manchester City -  shot with left foot from outside the box is blocked. Assist -  Ederson."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 10,
+                    "goal": false,
+                    "minute": 13,
+                    "extra_minute": null,
+                    "comment": "Offside - Manchester City. Fernandinho with a pass, however Leroy Sané is in offside."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 9,
+                    "goal": false,
+                    "minute": 10,
+                    "extra_minute": null,
+                    "comment": "Ilkay Gündogan  - Manchester City -  won a free kick on the left wing."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 8,
+                    "goal": false,
+                    "minute": 10,
+                    "extra_minute": null,
+                    "comment": "Fouled by Tom Davies  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 11,
+                    "goal": false,
+                    "minute": 16,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Ilkay Gündogan  - Manchester City -  shot with left foot from the centre of the box is blocked. Assist -  Leroy Sané."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 12,
+                    "goal": false,
+                    "minute": 16,
+                    "extra_minute": null,
+                    "comment": "Corner -  Manchester City. Conceded by Kurt Zouma."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 13,
+                    "goal": false,
+                    "minute": 16,
+                    "extra_minute": null,
+                    "comment": "Missed chance. Aymeric Laporte  - Manchester City -  shot with the head from few metres is close, but missed. Assist -  Ilkay Gündogan with a cross after corner."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 15,
+                    "goal": false,
+                    "minute": 20,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Bernardo Silva  - Manchester City -  shot with left foot from the right side of the box is blocked. Assist -  Fernandinho."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 14,
+                    "goal": false,
+                    "minute": 19,
+                    "extra_minute": null,
+                    "comment": "Ilkay Gündogan  - Manchester City -  hits the bar with a shot with left foot inside of six yard box - left side."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 16,
+                    "goal": false,
+                    "minute": 20,
+                    "extra_minute": null,
+                    "comment": "Offside - Manchester City. Leroy Sané with a pass, however David Silva is in offside."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 19,
+                    "goal": false,
+                    "minute": 33,
+                    "extra_minute": null,
+                    "comment": "Corner -  Everton. Conceded by Leroy Sané."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 18,
+                    "goal": false,
+                    "minute": 29,
+                    "extra_minute": null,
+                    "comment": "Corner -  Everton. Conceded by Kyle Walker."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 17,
+                    "goal": false,
+                    "minute": 29,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Bernard  - Everton -  shot with the head from the centre of the box is blocked. Assist -  Theo Walcott with a cross."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 21,
+                    "goal": false,
+                    "minute": 37,
+                    "extra_minute": null,
+                    "comment": "Sergio Agüero  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 20,
+                    "goal": false,
+                    "minute": 37,
+                    "extra_minute": null,
+                    "comment": "Fouled by Idrissa Gueye  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 22,
+                    "goal": false,
+                    "minute": 38,
+                    "extra_minute": null,
+                    "comment": "Corner -  Manchester City. Conceded by Kurt Zouma."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 23,
+                    "goal": false,
+                    "minute": 40,
+                    "extra_minute": null,
+                    "comment": "Offside - Manchester City. Aymeric Laporte with a pass, however Leroy Sané is in offside."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 24,
+                    "goal": false,
+                    "minute": 41,
+                    "extra_minute": null,
+                    "comment": "Corner -  Everton. Conceded by Nicolás Otamendi."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 25,
+                    "goal": false,
+                    "minute": 41,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Bernard  - Everton -  shot with right foot from outside the box is blocked."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 26,
+                    "goal": false,
+                    "minute": 43,
+                    "extra_minute": null,
+                    "comment": "Offside - Manchester City. Fernandinho with a pass, however Leroy Sané is in offside."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 28,
+                    "goal": false,
+                    "minute": 45,
+                    "extra_minute": 1,
+                    "comment": "Fouled by Idrissa Gueye  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 27,
+                    "goal": false,
+                    "minute": 45,
+                    "extra_minute": 1,
+                    "comment": "Fernandinho  - Manchester City -  won a free kick on the left wing."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": true,
+                    "order": 29,
+                    "goal": true,
+                    "minute": 45,
+                    "extra_minute": 2,
+                    "comment": "Goal!  Everton 0, Manchester City 1. Aymeric Laporte  - Manchester City -  shot with the head from the centre of the box to the top left corner. Assist -  David Silva with a cross ."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 30,
+                    "goal": false,
+                    "minute": 45,
+                    "extra_minute": 3,
+                    "comment": "First Half ended - Everton 0, Manchester City 1."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 31,
+                    "goal": false,
+                    "minute": 45,
+                    "extra_minute": null,
+                    "comment": "Second Half starts Everton 0, Manchester City 1."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 36,
+                    "goal": false,
+                    "minute": 49,
+                    "extra_minute": null,
+                    "comment": "Delay over. They are ready to continue."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 35,
+                    "goal": false,
+                    "minute": 46,
+                    "extra_minute": null,
+                    "comment": "Delay in match Theo Walcott  - Everton -   - injury."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 34,
+                    "goal": false,
+                    "minute": 46,
+                    "extra_minute": null,
+                    "comment": "Delay in match Aymeric Laporte  - Manchester City -   - injury."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 33,
+                    "goal": false,
+                    "minute": 46,
+                    "extra_minute": null,
+                    "comment": "Theo Walcott  - Everton -  won a free kick on the right wing."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 32,
+                    "goal": false,
+                    "minute": 46,
+                    "extra_minute": null,
+                    "comment": "Fouled by Aymeric Laporte  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 37,
+                    "goal": false,
+                    "minute": 50,
+                    "extra_minute": null,
+                    "comment": "Corner -  Everton. Conceded by Fernandinho."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 38,
+                    "goal": false,
+                    "minute": 50,
+                    "extra_minute": null,
+                    "comment": "New attacking attempt. Idrissa Gueye  - Everton -  shot with right foot from outside the box is saved in the top centre of the goal."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 40,
+                    "goal": false,
+                    "minute": 52,
+                    "extra_minute": null,
+                    "comment": "Tom Davies  - Everton -  won a free kick in attack."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 39,
+                    "goal": false,
+                    "minute": 52,
+                    "extra_minute": null,
+                    "comment": "Fouled by Fernandinho  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 41,
+                    "goal": false,
+                    "minute": 53,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Lucas Digne  - Everton -  shot with left foot from outside the box is blocked."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 42,
+                    "goal": false,
+                    "minute": 58,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Kyle Walker  - Manchester City -  shot with right foot from the right side of the box is blocked. Assist -  Bernardo Silva."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 45,
+                    "goal": false,
+                    "minute": 59,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Manchester City. Raheem Sterling for Leroy Sané."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 44,
+                    "goal": false,
+                    "minute": 58,
+                    "extra_minute": null,
+                    "comment": "Missed chance. Sergio Agüero  - Manchester City -  shot with right foot from the centre of the box is close, but missed."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 43,
+                    "goal": false,
+                    "minute": 58,
+                    "extra_minute": null,
+                    "comment": "New attacking attempt. Bernardo Silva  - Manchester City -  shot with the head from few metres is saved by goalkeeper in the centre of the goal."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 47,
+                    "goal": false,
+                    "minute": 61,
+                    "extra_minute": null,
+                    "comment": "Nicolás Otamendi  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 46,
+                    "goal": false,
+                    "minute": 61,
+                    "extra_minute": null,
+                    "comment": "Fouled by Dominic Calvert-Lewin  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 49,
+                    "goal": false,
+                    "minute": 62,
+                    "extra_minute": null,
+                    "comment": "Kyle Walker  - Manchester City -  won a free kick on the right wing."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 48,
+                    "goal": false,
+                    "minute": 62,
+                    "extra_minute": null,
+                    "comment": "Fouled by Lucas Digne  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 51,
+                    "goal": false,
+                    "minute": 63,
+                    "extra_minute": null,
+                    "comment": "Tom Davies  - Everton -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 50,
+                    "goal": false,
+                    "minute": 63,
+                    "extra_minute": null,
+                    "comment": "Fouled by Fernandinho  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 53,
+                    "goal": false,
+                    "minute": 64,
+                    "extra_minute": null,
+                    "comment": "Corner -  Everton. Conceded by Ilkay Gündogan."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 52,
+                    "goal": false,
+                    "minute": 63,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Everton. Gylfi Sigurdsson for André Gomes."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 56,
+                    "goal": false,
+                    "minute": 68,
+                    "extra_minute": null,
+                    "comment": "Corner -  Manchester City. Conceded by Jonjoe Kenny."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 55,
+                    "goal": false,
+                    "minute": 68,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. Raheem Sterling  - Manchester City -  shot with right foot from the left side of the box is blocked."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 54,
+                    "goal": false,
+                    "minute": 68,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. David Silva  - Manchester City -  shot with left foot from the left side of the box is blocked. Assist -  Raheem Sterling."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 57,
+                    "goal": false,
+                    "minute": 70,
+                    "extra_minute": null,
+                    "comment": "Shot blocked. David Silva  - Manchester City -  shot with left foot from the centre of the box is blocked."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 61,
+                    "goal": false,
+                    "minute": 73,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Everton. Richarlison for Bernard."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": true,
+                    "order": 60,
+                    "goal": false,
+                    "minute": 73,
+                    "extra_minute": null,
+                    "comment": "Fernandinho  - Manchester City -  receive yellow card."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 59,
+                    "goal": false,
+                    "minute": 72,
+                    "extra_minute": null,
+                    "comment": "Idrissa Gueye  - Everton -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 58,
+                    "goal": false,
+                    "minute": 72,
+                    "extra_minute": null,
+                    "comment": "Fouled by Fernandinho  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 64,
+                    "goal": false,
+                    "minute": 80,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Everton. Cenk Tosun for Theo Walcott."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 63,
+                    "goal": false,
+                    "minute": 73,
+                    "extra_minute": null,
+                    "comment": "Fouled by Dominic Calvert-Lewin  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 62,
+                    "goal": false,
+                    "minute": 73,
+                    "extra_minute": null,
+                    "comment": "Aymeric Laporte  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 65,
+                    "goal": false,
+                    "minute": 80,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Manchester City. Gabriel Jesus for Sergio Agüero."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 67,
+                    "goal": false,
+                    "minute": 81,
+                    "extra_minute": null,
+                    "comment": "Fouled by Tom Davies  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 66,
+                    "goal": false,
+                    "minute": 81,
+                    "extra_minute": null,
+                    "comment": "Fernandinho  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 68,
+                    "goal": false,
+                    "minute": 82,
+                    "extra_minute": null,
+                    "comment": "Fouled by Kurt Zouma  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": true,
+                    "order": 70,
+                    "goal": false,
+                    "minute": 82,
+                    "extra_minute": null,
+                    "comment": "Kurt Zouma  - Everton -  receive yellow card for a foul."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 69,
+                    "goal": false,
+                    "minute": 82,
+                    "extra_minute": null,
+                    "comment": "Gabriel Jesus  - Manchester City -  won a free kick in attack."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 72,
+                    "goal": false,
+                    "minute": 83,
+                    "extra_minute": null,
+                    "comment": "Fouled by Dominic Calvert-Lewin  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 71,
+                    "goal": false,
+                    "minute": 83,
+                    "extra_minute": null,
+                    "comment": "Aymeric Laporte  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 74,
+                    "goal": false,
+                    "minute": 84,
+                    "extra_minute": null,
+                    "comment": "Lucas Digne  - Everton -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 73,
+                    "goal": false,
+                    "minute": 84,
+                    "extra_minute": null,
+                    "comment": "Fouled by Kyle Walker  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 79,
+                    "goal": false,
+                    "minute": 87,
+                    "extra_minute": null,
+                    "comment": "Delay over. They are ready to continue."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 78,
+                    "goal": false,
+                    "minute": 85,
+                    "extra_minute": null,
+                    "comment": "Delay in match Nicolás Otamendi  - Manchester City -   - injury."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 77,
+                    "goal": false,
+                    "minute": 85,
+                    "extra_minute": null,
+                    "comment": "Delay in match Cenk Tosun  - Everton -   - injury."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 76,
+                    "goal": false,
+                    "minute": 85,
+                    "extra_minute": null,
+                    "comment": "Raheem Sterling  - Manchester City -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 75,
+                    "goal": false,
+                    "minute": 85,
+                    "extra_minute": null,
+                    "comment": "Fouled by Jonjoe Kenny  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 80,
+                    "goal": false,
+                    "minute": 89,
+                    "extra_minute": null,
+                    "comment": "Substitution -  Manchester City. Kevin De Bruyne for David Silva."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 81,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 2,
+                    "comment": "Corner -  Manchester City. Conceded by Kurt Zouma."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 82,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 3,
+                    "comment": "Corner -  Manchester City. Conceded by Lucas Digne."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 86,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 7,
+                    "comment": "Kevin De Bruyne  - Manchester City -  won a free kick on the left wing."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 85,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 7,
+                    "comment": "Fouled by Dominic Calvert-Lewin  - Everton"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 84,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 6,
+                    "comment": "Lucas Digne  - Everton -  won a free kick in defence."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 83,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 6,
+                    "comment": "Fouled by Gabriel Jesus  - Manchester City"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 87,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 7,
+                    "comment": "New attacking attempt. Gabriel Jesus  - Manchester City -  shot with right foot from the centre of the box is saved by goalkeeper in the centre of the goal. Assist -  Kevin De Bruyne with a through ball."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 90,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 8,
+                    "comment": "Thats all. Game finished -  Everton 0, Manchester City 2."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": false,
+                    "order": 89,
+                    "goal": false,
+                    "minute": 90,
+                    "extra_minute": 8,
+                    "comment": "Second Half ended - Everton 0, Manchester City 2."
+                },
+                {
+                    "fixture_id": 10333026,
+                    "important": true,
+                    "order": 88,
+                    "goal": true,
+                    "minute": 90,
+                    "extra_minute": 7,
+                    "comment": "Goal!  Everton 0, Manchester City 2. Gabriel Jesus  - Manchester City -  shot with the head from the centre of the box to the right corner."
+                }
+            ]
+        },
+        "tvstations": {
+            "data": [
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "BT Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "CANAL+ Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Chance"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "COSMOTE Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Cytavision Sports"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Diema Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Eurosport 1 (Rom)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Futbol"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "RMC Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "S Sport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Sport TV (Por)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (BiH)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (Cro)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (Mac)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (Mon)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (Ser)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "SportKlub (Slo)"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Tipsport"
+                },
+                {
+                    "fixture_id": 10333026,
+                    "tvstation": "Tipsport SK"
+                }
+            ]
+        },
+        "highlights": {
+            "data": [
+                {
+                    "fixture_id": 10333026,
+                    "location": "https://cc.sporttube.com/embed/LKaCCCG",
+                    "created_at": {
+                        "date": "2019-02-06 21:49:01.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    }
+                },
+                {
+                    "fixture_id": 10333026,
+                    "location": "https://cc.sporttube.com/embed/PKaCCCG",
+                    "created_at": {
+                        "date": "2019-02-06 20:46:34.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    }
+                }
+            ]
+        },
+        "league": {
+            "data": {
+                "id": 8,
+                "legacy_id": 29,
+                "country_id": 462,
+                "logo_path": "https://cdn.sportmonks.com/images/soccer/leagues/8.png",
+                "name": "Premier League",
+                "is_cup": false,
+                "current_season_id": 12962,
+                "current_round_id": 147732,
+                "current_stage_id": 7456626,
+                "live_standings": true,
+                "coverage": {
+                    "topscorer_goals": true,
+                    "topscorer_assists": true,
+                    "topscorer_cards": true
+                }
+            }
+        },
+        "season": {
+            "data": {
+                "id": 12962,
+                "name": "2018/2019",
+                "league_id": 8,
+                "is_current_season": true,
+                "current_round_id": 147732,
+                "current_stage_id": 7456626
+            }
+        },
+        "referee": {
+            "data": {
+                "id": 15293,
+                "common_name": "C. Pawson",
+                "fullname": "Craig Pawson",
+                "firstname": "Craig",
+                "lastname": "Pawson"
+            }
+        },
+        "firstAssistant": {
+            "data": {
+                "id": 12245,
+                "common_name": "E. Smart",
+                "fullname": "Edward Smart",
+                "firstname": "Edward",
+                "lastname": "Smart"
+            }
+        },
+        "secondAssistant": {
+            "data": {
+                "id": 12083,
+                "common_name": "C. Hatzidakis",
+                "fullname": "Constantine Hatzidakis",
+                "firstname": "Constantine",
+                "lastname": "Hatzidakis"
+            }
+        },
+        "fourthOfficial": {
+            "data": {
+                "id": 15241,
+                "common_name": "M. Dean",
+                "fullname": "Mike Dean",
+                "firstname": "Mike",
+                "lastname": "Dean"
+            }
+        },
+        "venue": {
+            "data": {
+                "id": 202,
+                "name": "Goodison Park",
+                "surface": "grass",
+                "address": "Goodison Road",
+                "city": "Liverpool",
+                "capacity": 40569,
+                "image_path": "https://cdn.sportmonks.com/images/soccer/venues/10/202.png",
+                "coordinates": null
+            }
+        },
+        "localCoach": {
+            "data": {
+                "coach_id": 455424,
+                "team_id": 13,
+                "country_id": 20,
+                "common_name": "Marco Silva",
+                "fullname": "Marco Silva",
+                "firstname": "Marco Alexandre",
+                "lastname": "Saraiva da Silva",
+                "nationality": "Portugal",
+                "birthdate": "12/07/1977",
+                "birthcountry": "Portugal",
+                "birthplace": "Lisboa",
+                "image_path": "https://cdn.sportmonks.com/images/soccer/players/0/455424.png"
+            }
+        },
+        "visitorCoach": {
+            "data": {
+                "coach_id": 455361,
+                "team_id": 9,
+                "country_id": 32,
+                "common_name": "Guardiola",
+                "fullname": "Guardiola",
+                "firstname": "Josep",
+                "lastname": "Guardiola i Sala",
+                "nationality": "Spain",
+                "birthdate": "18/01/1971",
+                "birthcountry": "Spain",
+                "birthplace": "Santpedor",
+                "image_path": "https://cdn.sportmonks.com/images/soccer/players/1/455361.png"
+            }
+        }
+    },
+    "meta": {
+        "subscription": {
+            "started_at": {
+                "date": "2016-09-17 10:10:28.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "trial_ends_at": {
+                "date": "2016-10-01 10:10:28.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+            },
+            "ends_at": null
+        },
+        "plan": {
+            "name": "Pijnenburg Custom Soccer Plan",
+            "price": "125",
+            "request_limit": "2000,60"
+        },
+        "sports": [
+            {
+                "id": 1,
+                "name": "Soccer",
+                "current": true
+            }
+        ]
+    }
+}
