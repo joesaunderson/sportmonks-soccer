@@ -20,7 +20,7 @@ class Head2Head extends SoccerClient
      */
     public function getByTeamIds(int $team1Id, int $team2Id)
     {
-        $url = "head2head/{$team1Id}/$team2Id}";
+        $url = "head2head/{$team1Id}/{$team2Id}";
         return $this->call($url);
     }
 }
