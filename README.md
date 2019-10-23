@@ -17,7 +17,21 @@ composer require joesaunderson/sportmonks-soccer
 ## Setup
 
 The API Client relies on [Environment variables](https://www.php.net/manual/en/reserved.variables.environment.php) for 
-configuration (setting API token & timezone). An example .env file:
+configuration (setting API token & timezone).
+
+Install:
+```
+composer require symfony/dotenv
+```
+
+Usage:
+```
+use Symfony\Component\Dotenv\Dotenv;
+$dotenv = new Dotenv();
+$dotenv->load(__DIR__.'/.env');
+```
+
+An example .env file:
 
 ```dotenv
 # API TOKEN (Required)
