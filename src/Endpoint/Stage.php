@@ -30,7 +30,7 @@ class Stage extends SoccerClient
      */
     public function getBySeasonId(int $seasonId)
     {
-        $url = "stages/{$seasonId}";
+        $url = "stages/season/{$seasonId}";
         return $this->call($url);
     }
 }
