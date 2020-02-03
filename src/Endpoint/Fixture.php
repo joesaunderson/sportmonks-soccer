@@ -81,4 +81,14 @@ class Fixture extends SoccerClient
         $url = "fixtures/between/{$dateFrom}/{$dateTo}/{$teamId}";
         return $this->call($url);
     }
+
+    /**
+     * @return stdClass
+     * @throws ApiRequestException
+     */
+    public function getLastUpdates()
+    {
+        $url = "fixtures/updates";
+        return $this->call($url);
+    }
 }

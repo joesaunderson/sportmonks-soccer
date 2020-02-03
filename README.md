@@ -186,6 +186,12 @@ $response = SoccerApi::fixtures()->getByDateRangeForTeam($dateFrom, $dateTo, $te
 $response = SoccerApi::fixtures()->getByMultipleIds([$fixtureId1, $fixtureId2...]);
 ```
 
+##### Get Last Updated - [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/fixtures/a/get-last-updated/218)
+
+```php
+$response = SoccerApi::fixtures()->getLastUpdates();
+```
+
 ### Head2Head
 
 ##### Get By Team Ids - [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/head2head/a/get-by-team-ids/19)
