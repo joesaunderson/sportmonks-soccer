@@ -189,7 +189,7 @@ $response = SoccerApi::fixtures()->getByMultipleIds([$fixtureId1, $fixtureId2...
 ##### Get Last Updated - [View Sportmonks Docs](https://sportmonks.com/docs/football/2.0/fixtures/a/get-last-updated/218)
 
 ```php
-$response = SoccerApi::fixtures()->getLastUpdates();
+$response = SoccerApi::fixtures()->getLastUpdated();
 ```
 
 ### Head2Head

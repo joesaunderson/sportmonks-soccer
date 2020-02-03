@@ -86,7 +86,7 @@ class Fixture extends SoccerClient
      * @return stdClass
      * @throws ApiRequestException
      */
-    public function getLastUpdates()
+    public function getLastUpdated()
     {
         $url = "fixtures/updates";
         return $this->call($url);
