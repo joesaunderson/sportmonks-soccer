@@ -33,4 +33,16 @@ class Standing extends SoccerClient
         $url = "standings/season/live/{$seasonId}";
         return $this->call($url);
     }
+
+    /**
+     * @param int $seasonId
+     * @param int $roundId
+     * @return stdClass
+     * @throws ApiRequestException
+     */
+    public function getBySeasonIdAndRoundId(int $seasonId, int $roundId)
+    {
+        $url = "standings/season/{$seasonId}/round/{$roundId}";
+        return $this->call($url);
+    }
 }
