@@ -37,12 +37,14 @@ class Standing extends SoccerClient
     /**
      * @param int $seasonId
      * @param int $roundId
+     * @param int|null $groupId
      * @return stdClass
      * @throws ApiRequestException
      */
-    public function getBySeasonIdAndRoundId(int $seasonId, int $roundId)
+    public function getBySeasonIdAndRoundId(int $seasonId, int $roundId, ?int $groupId)
     {
         $url = "standings/season/{$seasonId}/round/{$roundId}";
+        if ($groupId) $url .= "?group_id={$groupId}";
         return $this->call($url);
     }
 }
