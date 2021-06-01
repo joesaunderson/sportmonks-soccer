@@ -1,6 +1,6 @@
 <?php
 
-namespace Sportmonks\Test;
+namespace Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
@@ -9,9 +9,6 @@ use Sportmonks\Soccer\SoccerApi;
 
 class SetupTest extends TestCase
 {
-    /**
-     * @test
-     */
     public function testEmptyApiToken()
     {
         $_ENV['SPORTMONKS_API_TOKEN'] = "";
@@ -19,9 +16,6 @@ class SetupTest extends TestCase
         SoccerApi::bookmakers()->getAll();
     }
 
-    /**
-     * @test
-     */
     public function testInvalidApiToken()
     {
         $_ENV['SPORTMONKS_API_TOKEN'] = 'INVALID';
